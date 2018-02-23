@@ -1,37 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background4"
-    android:orientation="vertical"
-    tools:context="com.example.android.singlescreenapp.MainActivity">
-    <ImageView
-        android:src="@drawable/logo"
-        style="@style/ImageStyle1" />
+    android:fillViewport="true">
 
-    <TextView
-        style="@style/StyleTextView2"
-        android:text="@string/address"
-        android:drawableLeft="@drawable/place"
-        android:lineSpacingExtra="@dimen/extra_spacing"
-       />
-    <TextView
-        style="@style/StyleTextView2"
-        android:autoLink="phone"
-        android:drawableLeft="@drawable/phone"
-        android:text="@string/phone" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background4"
+        android:orientation="vertical"
+        tools:context="com.example.android.singlescreenapp.MainActivity">
 
-    <TextView
-        style="@style/StyleTextView1"
-        android:text="@string/web"
-        android:drawableLeft="@drawable/mail"
-        android:autoLink="web"
-        android:textColorLink="@color/colorPrimary"/>
+        <ImageView
+            style="@style/ImageStyle1"
+            android:src="@drawable/logo" />
 
-    <ImageView
-        android:src="@drawable/mayura"
-        style="@style/ImageStyle" />
+        <TextView
+            style="@style/StyleTextView2"
+            android:drawableLeft="@drawable/place"
+            android:lineSpacingExtra="@dimen/extra_spacing"
+            android:text="@string/address" />
 
-</LinearLayout>
+        <TextView
+            style="@style/StyleTextView2"
+            android:autoLink="phone"
+            android:drawableLeft="@drawable/phone"
+            android:text="@string/phone" />
+
+        <TextView
+            style="@style/StyleTextView1"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/mail"
+            android:text="@string/web"
+            android:textColorLink="@color/colorPrimary" />
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/mayura" />
+
+    </LinearLayout>
+</ScrollView>

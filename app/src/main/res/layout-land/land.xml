@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background4"
+        android:orientation="vertical"
+        tools:context="com.example.android.singlescreenapp.MainActivity">
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/StyleTextView3"
+                android:drawableLeft="@drawable/place"
+                android:lineSpacingExtra="@dimen/extra_spacing"
+                android:text="@string/address" />
+
+            <TextView
+                style="@style/StyleTextView3"
+                android:autoLink="phone"
+                android:drawableLeft="@drawable/phone"
+                android:text="@string/phone" />
+
+            <TextView
+                style="@style/StyleTextView2"
+                android:layout_marginLeft="@dimen/padding_3"
+                android:autoLink="web"
+                android:drawableLeft="@drawable/mail"
+                android:text="@string/web"
+                android:textColorLink="@color/colorPrimary" />
+        </LinearLayout>
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/mayura" />
+
+    </LinearLayout>
+</ScrollView>
