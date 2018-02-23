@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SingleScreenApp</string>
+    <string name="phone">" +48 884 808 680"</string>
+    <string name="web">" mayura@jogawkrakowie.pl"</string>
+    <string name="address">" ul. Krupnicza 8/2,\n 31-123 Kraków"</string>
+    <string name="address2">" ul. Krupnicza 8/2, 31-123 Kraków"</string>
+    <string name="name">Mayura</string>
+</resources>
