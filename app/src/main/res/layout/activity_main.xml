@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.singlescreenapp.MainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true">
@@ -10,8 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/background4"
-        android:orientation="vertical"
-        tools:context="com.example.android.singlescreenapp.MainActivity">
+        android:orientation="vertical">
 
         <ImageView
             style="@style/ImageStyle1"
@@ -32,7 +32,7 @@
         <TextView
             style="@style/StyleTextView1"
             android:autoLink="web"
-            android:drawableLeft="@drawable/mail"
+            android:drawableLeft="@drawable/web"
             android:text="@string/web"
             android:textColorLink="@color/colorPrimary" />
 

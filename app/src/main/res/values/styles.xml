@@ -21,10 +21,10 @@
     <style name="ImageStyle1">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingTop">@dimen/padding_1</item>
+        <item name="android:paddingTop">@dimen/padding_2</item>
         <item name="android:gravity">center_horizontal</item>
         <item name="android:scaleType">center</item>
-        <item name="android:paddingBottom">@dimen/padding_3</item>
+        <item name="android:paddingBottom">@dimen/padding_2</item>
 
     </style>
 
@@ -40,7 +40,7 @@
     <style name="StyleTextView1" parent="StyleTextView">
         <item name="android:paddingTop">@dimen/padding_2</item>
         <item name="android:paddingLeft">@dimen/padding_3</item>
-
+        <item name="android:layout_gravity">center_horizontal</item>
     </style>
 
     <style name="StyleTextView2" parent="StyleTextView">
@@ -50,6 +50,7 @@
 
     <style name="StyleTextView3" parent="StyleTextView">
         <item name="android:paddingTop">@dimen/padding_2</item>
-        <item name="android:paddingLeft">@dimen/padding_5</item>
+        <item name="android:paddingLeft">@dimen/padding_3</item>
+        <item name="android:layout_gravity">center_horizontal</item>
     </style>
 </resources>
